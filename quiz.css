@@ -1,0 +1,103 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* page background */
+body{
+background:#eef2f7;
+height:100vh;
+}
+
+/* header */
+#container{
+width:100%;
+display:flex;
+justify-content:center;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+padding:20px 0;
+}
+
+/* title */
+#box h2{
+font-size:28px;
+color:#0f0855;
+cursor:pointer;
+transition:0.3s;
+}
+
+/* hover effect */
+#box h2:hover{
+color:#0f2992;
+transform:translateY(-8px);
+}
+
+/* center container */
+#mainContainer{
+height:80vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* quiz card */
+#quiz{
+width:700px;
+min-height:400px;
+padding:50px;
+
+background:white;
+border-radius:15px;
+text-align:center;
+
+transition:0.3s;
+
+box-shadow:0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* hover lift */
+#quiz:hover{
+transform:translateY(-8px);
+}
+
+/* heading */
+#quiz h3{
+margin-bottom:25px;
+color:#0f0855;
+}
+
+/* input */
+#quiz input{
+width:70%;
+padding:12px;
+border-radius:8px;
+border:1px solid #ccc;
+margin-bottom:20px;
+}
+
+/* button */
+#quiz button{
+padding:12px 25px;
+border:none;
+background:#0f2992;
+color:white;
+border-radius:8px;
+cursor:pointer;
+transition:0.3s;
+}
+
+/* button hover */
+#quiz button:hover{
+background:#091a66;
+}
+
+/* result area */
+#result{
+margin-top:25px;
+font-size:18px;
+line-height:1.6;
+color:#333;
+}
